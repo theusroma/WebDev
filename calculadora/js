@@ -1,0 +1,32 @@
+function calculadora() {
+    // Pede ao usuário que insira o primeiro número
+
+    let numero1 = parseInt(prompt("Digite o primeiro número: "));
+    let numero2 = parseInt(prompt("Digite o segundo número: "));
+    let sinal = prompt("Digite o sinal da operação: \n + para adição\n - para subtração\n * para multiplicação\n / para divisão");
+
+    if (sinal == '+') {
+        let soma = numero1 + numero2;
+        alert("O resultado da ADIÇÃO é: " + soma);
+
+    } else if (sinal == '-') {
+        let subtracao = numero1 - numero2;
+        alert("O resultado da SUBTRAÇÃO é: " + subtracao);
+
+    } else if (sinal == '*') {
+        let multi = numero1 * numero2;
+        alert("O resultado da MULTIPLICAÇÃO é: " + multi);
+
+    } else if (sinal == '/') {
+        if (numero2 != 0) {
+            let divisao = numero1 / numero2;
+            alert("O resultado da DIVISÃO é: " + divisao);
+            
+        } else {
+            alert("Erro: Divisão por zero não é permitida!");
+        }
+        
+    } else {
+        alert("Operação inválida! Por favor, insira +, -, * ou /.");
+    }
+}
