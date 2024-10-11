@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url('imagens/fundo1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1.5px solid #ffcc00;
+}
+
+
+
+#bat {
+    width: 100px;
+    margin-right: 20px;
+
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+#logo {
+    padding-right: 690px;
+}
+
+#bat {
+    width: 100px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border: 3px solid #ffcc00;
+    border-radius: 10px;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ffcc00;
+}
+
+#enviar {
+    width: 100px;
+    height: 70px;
+    color: white;
+    background-color: #333;
+    border-radius: 20%;
+    border: 3px solid #ffcc00;
+}
+
+#veri {
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color: #333;
+    border-radius: 10%;
+    border: 3px solid #ffcc00;
+}
+
+
+footer {
+    background: #333;
+    color: #ffcc00;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    border: 1px solid #ffcc00;
+}
