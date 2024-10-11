@@ -1,0 +1,12 @@
+body{
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+.botao{
+    width: 150px;
+    height: 100px;
+    color: black;
+    background-color: plum;
+    border-radius: 10%;
+}
