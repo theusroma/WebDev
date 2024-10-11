@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman </title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul>
+
+                <li id="logo"><img src="imagens/black.png" alt="" id="bat"></li>
+
+                <li><a href="https://www.dc.com/characters/batman">História do Batman</a></li>
+                <li><a href="https://www.dc.com/characters/the-joker">História do Coringa</a></li>
+                <li><a href="https://www.dc.com/characters/catwoman">História da Catwoman</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Sobre mim</h2>
+            <p>
+                Olá, meu nome é Matheus, tenho 19 anos e sou fã do Batman. Estou criando este site como parte de uma
+                avaliação na faculdade, onde posso compartilhar minha paixão pelo Cavaleiro das Trevas e explorar seu
+                universo fascinante. Espero que você goste!
+            </p>
+
+
+            <br>
+
+
+            <h2>O que é o Batman?</h2>
+            <p>A história dos quadrinhos do Batman começou em 1939, quando o personagem foi criado por Bob Kane e Bill
+                Finger, estreando na revista "Detective Comics" #27. Desde então, ele se tornou um dos super-heróis mais
+                icônicos da DC Comics.
+
+                A narrativa do Batman gira em torno de Bruce Wayne, um bilionário que, após testemunhar o assassinato de
+                seus pais na infância, decide combater o crime em Gotham City como vigilante. Utilizando sua
+                inteligência, habilidades de combate e tecnologia avançada, ele enfrenta uma galeria diversificada de
+                vilões, incluindo o Coringa, a Gata Mulher e o Pinguim.
+
+                Ao longo das décadas, as histórias do Batman evoluíram, explorando temas de justiça, moralidade e a luta
+                contra seus próprios demônios. A série "Batman: Year One" (1987) reimaginou suas origens, enquanto "The
+                Dark Knight Returns" (1986) apresentou um Batman mais velho e cínico em um mundo em decadência. Essas
+                obras influenciaram gerações e consolidaram o status do Batman como um ícone cultural, levando a
+                adaptações em filmes, séries e jogos, mantendo sua relevância e popularidade ao longo dos anos.</p>
+
+
+            <br>
+
+
+            <h2>Vilões mais icônicos.</h2>
+            <p>Prepare-se para conhecer cinco dos vilões mais icônicos do Batman. Temos um gênio do crime com um senso
+                de humor macabro, um ex-militar em busca de vingança, um mestre do disfarce cujas motivações são
+                trágicas, uma manipuladora astuta que usa seu charme a seu favor e um lunático que busca o caos
+                absoluto. Esses adversários não apenas desafiam o Cavaleiro das Trevas, mas também revelam as
+                complexidades do bem e do mal.</p>
+
+            <br>
+
+            <ul>
+                <li>Joker</li>
+                <li>Deathstroke</li>
+                <li>Harvey Dent</li>
+                <li>Catwoman</li>
+                <li>Penguin</li>
+            </ul>
+            <br><br><br>
+
+            <h1>Qual é o seu vilão favorito? </h1>
+
+            <form onsubmit="mostrar()">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+
+                <br><br>
+                <label for="mensagem">Fale sobre ele:</label><br>
+                <textarea id="mensagem" rows="5" cols="30"></textarea><br><br>
+
+                <input type="submit" value="Enviar" id="enviar">
+            </form>
+
+            <br><br><br><br>
+
+            <center>
+                <button onclick="verifica()" id="veri">Verificar se algum número é par, impar ou divisível por
+                    5</button>
+            </center>
+
+
+        </section>
+    </main>
+
+    <footer id="rodape">
+        <p> 2024 - Todos os direitos reservados </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
