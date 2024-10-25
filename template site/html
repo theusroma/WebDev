@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade com css e @Media queries</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!--Área de Cabeçalho -->
+    <header id="cabecalho">
+        cabeçalho
+        <figure>
+            <img src="logo.png" alt="">
+        </figure>
+
+        <nav id="menu_topo">
+            
+        </nav>
+    </header>
+
+    <!--Área de Conteudo -->
+    <div id="conteudo">
+        <aside id="menu_lateral">
+            menu lateral
+        </aside>
+
+        <main id="conteudo_principal"> <!-- Parte marrom do site -->
+            <section id="galeria">
+                
+                <article>1</article>
+                <article>2</article>
+                <article>3</article>
+                <article>4</article>
+            </section>
+            <section id="banner">banner</section>
+            <section id="promos">promos</section>
+            <section></section>
+        </main>
+    </div>
+
+    <!--Área de Rodapé -->
+    <footer id="rodape">
+        rodape
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
