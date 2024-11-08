@@ -1,0 +1,58 @@
+body{
+    /* background-color: brown; */
+}
+#cabecalho, #conteudo, #rodape{
+    margin-left: auto;
+    margin-right: auto;
+}
+#cabecalho{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+#conteudo{
+    width: 800px;
+    height: 1500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu_lateral{
+    width: 15%;
+    height: 300px;
+    background-color: rgb(148, 255, 148);
+}
+#conteudo_principal{
+    width: 80%;
+    height: 1500px;
+    /* background-color: green; */
+}
+#galeria{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#galeria article{
+    width: 22%;
+    height: 200px;
+    background-color: rgb(148, 255, 148);
+}
+#banner{
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(148, 255, 148);
+}
+#promos{
+    margin-top: 10px;
+    width: 100%;
+    height: 58%;
+    background-color: rgb(148, 255, 148);
+}
+#rodape{
+    width: 100%;
+    height: 700px;
+    background-color: red;
+}
